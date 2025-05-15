@@ -1,4 +1,5 @@
-from highlight import Highlight
+from model.highlight import Highlight
+
 
 # Match 클래스
 class Match:

@@ -3,7 +3,7 @@ from xml.etree.ElementTree import Element, SubElement, tostring
 from uuid import uuid4
 import os
 
-from match import Match
+from model.match import Match
 
 # Matches 전체 저장
 class HighlightSaveAll:
