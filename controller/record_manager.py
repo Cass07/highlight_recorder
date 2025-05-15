@@ -238,7 +238,6 @@ class HighlightRecordController:
     def close(self, event):
         try:
             if any(self.highlights_by_match.values()):
-                logging
                 self.save_highlights()
         except Exception as e:
             logging.error(f"Error in closeEvent: {str(e)}")
